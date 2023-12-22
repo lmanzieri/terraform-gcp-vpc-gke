@@ -1,0 +1,16 @@
+env = ""
+project = ""
+
+subnet_01_configs = {
+    subnet_ip               = "/28",
+    secondary_subnet_ip_pod = "/24",
+    secondary_subnet_ip_svc = "/24",
+    subnet_private_access   = true
+}
+
+subnet_02_configs = {
+    subnet_ip               = "/28",
+    secondary_subnet_ip_pod = "/24",
+    secondary_subnet_ip_svc = "/24",
+    subnet_private_access   = true
+}
